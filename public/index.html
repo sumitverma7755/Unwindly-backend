@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unwindly | Spa Finder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="finder-panel">
+      <header class="brand-bar">
+        <div class="brand-lockup">
+          <span class="brand-mark">U</span>
+          <div>
+            <p class="eyebrow">Spa Finder</p>
+            <h1>Unwindly</h1>
+          </div>
+        </div>
+        <button class="icon-button" id="profile-button" type="button" aria-label="Open profile">
+          <i data-lucide="user-round"></i>
+        </button>
+      </header>
+
+      <nav class="view-tabs" aria-label="Primary">
+        <button class="view-tab active" type="button" data-view="discover">
+          <i data-lucide="map"></i>
+          Discover
+        </button>
+        <button class="view-tab" type="button" data-view="bookings">
+          <i data-lucide="calendar-check"></i>
+          Bookings
+        </button>
+        <button class="view-tab" type="button" data-view="partner">
+          <i data-lucide="briefcase-business"></i>
+          Partner
+        </button>
+      </nav>
+
+      <section class="panel-view active" id="discover-view">
+        <div class="search-box">
+          <i data-lucide="search"></i>
+          <input id="search-input" type="search" placeholder="Search massage, facial, sauna">
+          <button class="icon-button compact" id="clear-search" type="button" aria-label="Clear search">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+
+        <div class="filter-strip" id="filter-strip" aria-label="Treatment filters"></div>
+
+        <div class="finder-controls">
+          <button class="soft-button" id="near-me-button" type="button">
+            <i data-lucide="crosshair"></i>
+            Near me
+          </button>
+          <label class="select-wrap" for="sort-select">
+            <i data-lucide="arrow-up-down"></i>
+            <select id="sort-select">
+              <option value="recommended">Recommended</option>
+              <option value="distance">Nearest</option>
+              <option value="rating">Top rated</option>
+              <option value="price">Lowest price</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="result-summary" id="result-summary"></div>
+        <div class="spa-results" id="spa-results"></div>
+      </section>
+
+      <section class="panel-view" id="bookings-view">
+        <div class="section-heading">
+          <p class="eyebrow">Your Visits</p>
+          <h2>Upcoming bookings</h2>
+        </div>
+        <div class="booking-list" id="booking-list"></div>
+      </section>
+
+      <section class="panel-view" id="partner-view">
+        <div class="section-heading">
+          <p class="eyebrow">Partner Portal</p>
+          <h2>Today at Oasis Spa</h2>
+        </div>
+        <div class="metric-grid">
+          <div class="metric-tile">
+            <span id="metric-revenue">$1,480</span>
+            <p>Booked revenue</p>
+          </div>
+          <div class="metric-tile">
+            <span id="metric-bookings">6</span>
+            <p>Appointments</p>
+          </div>
+        </div>
+        <div class="partner-feed" id="partner-feed"></div>
+      </section>
+    </aside>
+
+    <main class="map-stage">
+      <div class="map-toolbar">
+        <button class="soft-button active" type="button" data-map-mode="all">
+          <i data-lucide="sparkles"></i>
+          All spas
+        </button>
+        <button class="soft-button" type="button" data-map-mode="open">
+          <i data-lucide="clock"></i>
+          Open now
+        </button>
+      </div>
+      <div id="leaflet-map" aria-label="Map of nearby spas"></div>
+      <div class="map-fallback" id="map-fallback">
+        <i data-lucide="map-pinned"></i>
+        <span>Map loading</span>
+      </div>
+
+      <section class="detail-panel" id="detail-panel" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
