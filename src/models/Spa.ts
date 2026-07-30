@@ -1,6 +1,7 @@
 import { Schema, model, Document } from 'mongoose';
 
 export interface ISpaService {
+  _id?: any;
   name: string;
   description?: string;
   durationMinutes: number;
