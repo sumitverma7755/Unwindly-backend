@@ -4,6 +4,38 @@ import { Spa } from '../models/Spa';
 const router = Router();
 const DEFAULT_RADIUS_METERS = 10000; // 10km default
 
+const escapeRegExp = (value: string): string => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// GET /api/spas/areas - Fetch searchable Lucknow areas with active spa counts
+router.get('/areas', async (_req: Request, res: Response, next: NextFunction) => {
+  try {
+    const areas = await Spa.aggregate([
+      { $match: { isActive: true } },
+      {
+        $group: {
+          _id: '$neighborhood',
+          spaCount: { $sum: 1 },
+        },
+      },
+      {
+        $project: {
+          _id: 0,
+          name: '$_id',
+          spaCount: 1,
+        },
+      },
+      { $sort: { name: 1 } },
+    ]);
+
+    return res.status(200).json({
+      count: areas.length,
+      data: areas,
+    });
+  } catch (error) {
+    return next(error);
+  }
+});
+
 // GET /api/spas/nearby - Fetch spas with optional geolocation, search queries, filtering, and sorting
 router.get('/nearby', async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -12,6 +44,7 @@ router.get('/nearby', async (req: Request, res: Response, next: NextFunction) =>
     const radiusMeters = req.query.radiusKm ? Number(req.query.radiusKm) * 1000 : DEFAULT_RADIUS_METERS;
     const query = req.query.query ? String(req.query.query).trim() : undefined;
     const category = req.query.category ? String(req.query.category).trim() : undefined;
+    const area = req.query.area ? String(req.query.area).trim() : undefined;
     const sort = req.query.sort ? String(req.query.sort).toLowerCase() : 'recommended';
 
     // Construct DB Query
@@ -39,6 +72,11 @@ router.get('/nearby', async (req: Request, res: Response, next: NextFunction) =>
         { neighborhood: { $regex: query, $options: 'i' } },
         { 'services.name': { $regex: query, $options: 'i' } },
       ];
+    }
+
+    // Apply exact area/neighborhood filter
+    if (area && area !== 'All') {
+      dbQuery.neighborhood = { $regex: `^${escapeRegExp(area)}$`, $options: 'i' };
     }
 
     // Apply Category filter

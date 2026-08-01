@@ -1,352 +1,92 @@
 [
   {
-    "name": "Star Spa And Unisex Salon",
-    "description": "Full-service spa and salon in Indira Nagar offering body massage, facial therapy, steam bath, aromatherapy, mineral bath, and stone therapy.",
-    "address": "594/3, 1st Floor, Laxmi Complex, Faizabad Road, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Indira Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9977, 26.8756]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:30", "close": "21:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Full Body Massage", "description": "Full body relaxation massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Facial Therapy", "description": "Cleansing and rejuvenating facial therapy.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Steam Bath", "description": "Steam bath wellness session.", "durationMinutes": 30, "price": 999, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Massage with aromatic oils for stress relief.", "durationMinutes": 75, "price": 1999, "isActive": true },
-      { "name": "Stone Therapy", "description": "Warm stone therapy for deep relaxation.", "durationMinutes": 90, "price": 2499, "isActive": true }
-    ],
-    "averageRating": 4.8,
-    "reviewCount": 190,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "url": "https://www.starspa.live/",
-      "note": "Seeded from publicly visible listing details; verify before production use."
-    }
-  },
-  {
-    "name": "Hazratganj Royal Spa",
-    "description": "Premium massage and facial studio near central Lucknow shopping districts.",
-    "address": "Hazratganj, Lucknow",
-    "neighborhood": "Hazratganj",
-    "location": { "type": "Point", "coordinates": [80.9462, 26.8500] },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Swedish Massage", "description": "Relaxation massage for stress relief.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Firm pressure massage for muscle tension.", "durationMinutes": 75, "price": 2199, "isActive": true },
-      { "name": "Glow Facial", "description": "Hydrating facial for dull skin.", "durationMinutes": 60, "price": 1799, "isActive": true }
-    ],
-    "averageRating": 4.8,
-    "reviewCount": 212,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": { "type": "demo_seed", "note": "Demo launch data for Lucknow." }
-  },
-  {
-    "name": "Gomti Nagar Aroma Spa",
-    "description": "Aromatherapy, hot stone, and couple spa treatments in Gomti Nagar.",
-    "address": "Vibhuti Khand, Gomti Nagar, Lucknow",
-    "neighborhood": "Gomti Nagar",
-    "location": { "type": "Point", "coordinates": [81.0106, 26.8640] },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Aroma Therapy", "description": "Essential-oil massage for relaxation.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Hot Stone Ritual", "description": "Warm stone massage ritual.", "durationMinutes": 90, "price": 2499, "isActive": true },
-      { "name": "Couples Retreat", "description": "Side-by-side couples treatment.", "durationMinutes": 90, "price": 3999, "isActive": true }
-    ],
-    "averageRating": 4.7,
-    "reviewCount": 164,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": { "type": "demo_seed", "note": "Demo launch data for Lucknow." }
-  },
-  {
-    "name": "La Ava Luxury Spa",
-    "description": "Premium luxury spa in Vibhuti Khand known for specialized Turkish baths, hot stone relaxation therapy, Jacuzzi sessions, and Ashiatsu massages.",
-    "address": "Shop No. 107, 1st Floor, Experio at Exprion Capital, Vibhuti Khand, Gomti Nagar, Lucknow - 226010",
-    "neighborhood": "Gomti Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [81.0022, 26.8643]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Turkish Bath & Hammam", "description": "Authentic cleansing and exfoliating Turkish bath.", "durationMinutes": 60, "price": 2999, "isActive": true },
-      { "name": "Hot Stone Massage", "description": "Deep heat massage using smooth, heated stones.", "durationMinutes": 75, "price": 2499, "isActive": true },
-      { "name": "Ashiatsu Massage", "description": "Deep pressure barefoot massage technique.", "durationMinutes": 60, "price": 2799, "isActive": true },
-      { "name": "Jacuzzi Session", "description": "Relaxing hydrotherapy jacuzzi soak.", "durationMinutes": 30, "price": 1499, "isActive": true }
-    ],
-    "averageRating": 4.6,
-    "reviewCount": 312,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "url": "https://laavaluxuryspa.in/",
-      "note": "Seeded from Vibhuti Khand listing."
-    }
-  },
-  {
-    "name": "R3 Spa (Novotel Lucknow)",
-    "description": "Luxurious sanctuary-like spa inside the Novotel Hotel offering therapeutic aromatherapy, body scrubs, premium reflexology, and wellness rituals.",
-    "address": "Inside Novotel Hotel, Viraj Khand 4, Gomti Nagar, Lucknow - 226010",
-    "neighborhood": "Gomti Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [81.0028, 26.8485]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Aromatherapy Treatment", "description": "Stress-reducing massage with aromatic organic essential oils.", "durationMinutes": 60, "price": 2599, "isActive": true },
-      { "name": "Therapeutic Full Body Massage", "description": "Deep muscular relief body massage.", "durationMinutes": 75, "price": 2899, "isActive": true },
-      { "name": "Premium Reflexology", "description": "Focused zone reflexology for total restoration.", "durationMinutes": 45, "price": 1899, "isActive": true },
-      { "name": "Rejuvenating Facial", "description": "Hydrating botanical facial therapy.", "durationMinutes": 60, "price": 2299, "isActive": true }
-    ],
-    "averageRating": 4.8,
-    "reviewCount": 240,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "url": "https://r3naturals.com/",
-      "note": "Seeded from Novotel Lucknow."
-    }
-  },
-  {
-    "name": "The Ark Spalon",
-    "description": "Highly rated, professional wellness center and spalon offering clinical-grade hygiene, traditional Thai massage, and deep tissue therapy.",
-    "address": "A1/27, Patrakarpuram, Vikas Khand 1, Gomti Nagar, Lucknow - 226010",
-    "neighborhood": "Gomti Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9995, 26.8530]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "thursday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "friday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "saturday", "open": "09:00", "close": "23:00", "isClosed": false },
-      { "day": "sunday", "open": "09:00", "close": "23:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Traditional Thai Massage", "description": "Energizing passive stretching and yoga-like massage.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Deep Tissue Therapy", "description": "Intense pressure therapy to release chronic muscle tension.", "durationMinutes": 75, "price": 2299, "isActive": true },
-      { "name": "Exfoliating Body Scrub", "description": "Herbal body scrub to clean and polish skin.", "durationMinutes": 45, "price": 1599, "isActive": true }
-    ],
-    "averageRating": 4.9,
-    "reviewCount": 444,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "url": "http://thearkspalon.com/",
-      "note": "Seeded from Patrakarpuram location."
-    }
-  },
-  {
-    "name": "O2 Spa (Eldeco Elegance)",
-    "description": "Professional wellness spa chain offering clean, upscale facilities, Balinese massage, head massage, and hot stone therapy near Cinepolis Mall.",
-    "address": "3rd Floor, Eldeco Elegance, Near Cinepolis Mall, Vibhuti Khand, Gomti Nagar, Lucknow - 226010",
-    "neighborhood": "Gomti Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [81.0042, 26.8631]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Balinese Massage", "description": "Gentle stretches, acupressure, and aromatherapy massage.", "durationMinutes": 60, "price": 1999, "isActive": true },
-      { "name": "Hot Stone Therapy", "description": "Relaxing thermal stone muscle work.", "durationMinutes": 75, "price": 2399, "isActive": true },
-      { "name": "Stress Relieving Head Massage", "description": "Soothing neck and scalp acupressure massage.", "durationMinutes": 30, "price": 999, "isActive": true }
-    ],
-    "averageRating": 4.5,
-    "reviewCount": 185,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "url": "https://o2spa.org/",
-      "note": "Seeded from Eldeco Elegance Vibhuti Khand."
-    }
-  },
-  {
-    "name": "Desire The Spa & Unisex Salon",
-    "description": "Highly rated wellness center in Munshipulia known for premium hygiene standards, deep muscle relief massage, and exfoliating scrubs.",
-    "address": "Near Kaleva Chauraha, Munshipulia, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Munshipulia",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9942, 26.8785]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Swedish Massage", "description": "Swedish muscle relaxation and stress-relief massage.", "durationMinutes": 60, "price": 1399, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Focused deep muscle release therapy.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Aromatherapy Treatment", "description": "Relaxing aromatherapy with premium essential oils.", "durationMinutes": 75, "price": 2199, "isActive": true },
-      { "name": "Steam Bath", "description": "Cleansing post-massage steam bath session.", "durationMinutes": 30, "price": 799, "isActive": true }
-    ],
-    "averageRating": 4.7,
-    "reviewCount": 125,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "note": "Seeded from Munshipulia local search details."
-    }
-  },
-  {
     "name": "Aura Spa & Unisex Salon",
     "description": "Comfortable wellness retreat in Indira Nagar offering specialized couples retreats, facials, and aromatherapy massage.",
     "address": "Munshi Pulia, Indira Nagar, Lucknow - 226016",
     "neighborhood": "Munshipulia",
     "location": {
       "type": "Point",
-      "coordinates": [80.9958, 26.8802]
+      "coordinates": [
+        80.9958,
+        26.8802
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Full Body Massage", "description": "Full body wellness and relaxation massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Rejuvenating Facial", "description": "Herbal cleansing and skin hydration facial.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Couples Massage Retreat", "description": "Couples side-by-side relaxation therapy.", "durationMinutes": 90, "price": 3499, "isActive": true }
+      {
+        "name": "Full Body Massage",
+        "description": "Full body wellness and relaxation massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Rejuvenating Facial",
+        "description": "Herbal cleansing and skin hydration facial.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Couples Massage Retreat",
+        "description": "Couples side-by-side relaxation therapy.",
+        "durationMinutes": 90,
+        "price": 3499,
+        "isActive": true
+      }
     ],
     "averageRating": 4.6,
     "reviewCount": 85,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "note": "Seeded from Justdial Lucknow."
-    }
-  },
-  {
-    "name": "Goodluck Thai Spa & Salon",
-    "description": "Authentic Thai-focused wellness studio in Sukh Complex offering traditional foot reflexology, Thai yoga stretching, and herbal scrubs.",
-    "address": "Sukh Complex, Munshi Pulia, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Munshipulia",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9951, 26.8794]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:30", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Traditional Thai Massage", "description": "Passive stretching and deep compressions massage.", "durationMinutes": 60, "price": 1599, "isActive": true },
-      { "name": "Foot Reflexology", "description": "Pressure point Thai reflexology session.", "durationMinutes": 45, "price": 999, "isActive": true },
-      { "name": "Body Scrub & Polish", "description": "Organic body scrub to polish and renew skin.", "durationMinutes": 60, "price": 1999, "isActive": true }
-    ],
-    "averageRating": 4.8,
-    "reviewCount": 140,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "note": "Seeded from Sukh Complex listing."
-    }
-  },
-  {
-    "name": "The Comfort Unisex Spa Salon",
-    "description": "Rejuvenation parlor near Munshipulia Chauraha offering tension relief body therapy, head massages, and deep tissue treatments.",
-    "address": "Munshi Pulia Chauraha, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Munshipulia",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9935, 26.8778]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Relaxation Body Massage", "description": "Soothing full body massage for relaxation.", "durationMinutes": 60, "price": 1199, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Deep tension muscle pressure therapy.", "durationMinutes": 75, "price": 1799, "isActive": true },
-      { "name": "Acupressure Head Massage", "description": "Relieving neck and head acupressure.", "durationMinutes": 30, "price": 699, "isActive": true }
-    ],
-    "averageRating": 4.5,
-    "reviewCount": 92,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "note": "Seeded from local directory details."
     }
   },
   {
@@ -356,28 +96,86 @@
     "neighborhood": "Munshipulia",
     "location": {
       "type": "Point",
-      "coordinates": [80.9961, 26.8810]
+      "coordinates": [
+        80.9961,
+        26.881
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:30", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Swedish muscle relaxation and stress-relief massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Focused deep muscle release therapy.", "durationMinutes": 60, "price": 1699, "isActive": true },
-      { "name": "Foot Spa Treatment", "description": "Soothing foot massage and reflexology session.", "durationMinutes": 45, "price": 899, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Swedish muscle relaxation and stress-relief massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Focused deep muscle release therapy.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Foot Spa Treatment",
+        "description": "Soothing foot massage and reflexology session.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.3,
     "reviewCount": 110,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Relax-Body-Spa-Indira-Nagar-Lucknow/0522PX522-X522-250606130818-P4Z9_BZDET",
       "note": "Extracted from Justdial Munshi Pulia URL list."
     }
@@ -389,28 +187,86 @@
     "neighborhood": "Munshipulia",
     "location": {
       "type": "Point",
-      "coordinates": [80.9949, 26.8798]
+      "coordinates": [
+        80.9949,
+        26.8798
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Thai Body Massage", "description": "Energizing traditional Thai massage with stretches.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Aromatherapy Treatment", "description": "Essential-oil massage for deep relaxation.", "durationMinutes": 75, "price": 1999, "isActive": true },
-      { "name": "Herbal Steam Soak", "description": "Herbal-infused steam bath wellness session.", "durationMinutes": 30, "price": 699, "isActive": true }
+      {
+        "name": "Thai Body Massage",
+        "description": "Energizing traditional Thai massage with stretches.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Treatment",
+        "description": "Essential-oil massage for deep relaxation.",
+        "durationMinutes": 75,
+        "price": 1999,
+        "isActive": true
+      },
+      {
+        "name": "Herbal Steam Soak",
+        "description": "Herbal-infused steam bath wellness session.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
     ],
     "averageRating": 4.4,
     "reviewCount": 98,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/La-Bella-Thai-Spa-Near-Prime-Plaza-Indira-Nagar-Lucknow/0522PX522-X522-240223142159-D2M1_BZDET",
       "note": "Extracted from Justdial Munshi Pulia URL list."
     }
@@ -422,28 +278,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9882, 26.8641]
+      "coordinates": [
+        80.9882,
+        26.8641
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Traditional Thai Massage", "description": "Authentic full body stretching and pressure point massage.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Deep muscle relaxation for tension release.", "durationMinutes": 60, "price": 2099, "isActive": true },
-      { "name": "Aromatherapy Treatment", "description": "Aromatic oils massage for stress reduction.", "durationMinutes": 75, "price": 2499, "isActive": true }
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Authentic full body stretching and pressure point massage.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Deep muscle relaxation for tension release.",
+        "durationMinutes": 60,
+        "price": 2099,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Treatment",
+        "description": "Aromatic oils massage for stress reduction.",
+        "durationMinutes": 75,
+        "price": 2499,
+        "isActive": true
+      }
     ],
     "averageRating": 4.5,
     "reviewCount": 130,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Suay-Thai-S-And-Unisex-Saloon-Bhootnath-Metro-Station-Indira-Nagar-Lucknow/0522PX522-X522-170314111806-D8N1_BZDET",
       "note": "Extracted from Justdial Indira Nagar Body Massage Centres."
     }
@@ -455,28 +369,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9855, 26.8972]
+      "coordinates": [
+        80.9855,
+        26.8972
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:30", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Classic Swedish body massage for absolute relaxation.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Intense deep muscle massage therapy.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Hot Stone Massage Therapy", "description": "Therapeutic massage with heated smooth basalt stones.", "durationMinutes": 75, "price": 2299, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Classic Swedish body massage for absolute relaxation.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Intense deep muscle massage therapy.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Hot Stone Massage Therapy",
+        "description": "Therapeutic massage with heated smooth basalt stones.",
+        "durationMinutes": 75,
+        "price": 2299,
+        "isActive": true
+      }
     ],
     "averageRating": 4.6,
     "reviewCount": 95,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Spa-Empire-Near-Jagrani-Hospital-Opposite-Sapna-Clarks-Inn-Ring-Road/0522PX522-X522-250519173251-J5E5_BZDET",
       "note": "Extracted from Justdial Indira Nagar Body Massage Centres."
     }
@@ -488,94 +460,88 @@
     "neighborhood": "Chinhat",
     "location": {
       "type": "Point",
-      "coordinates": [81.0370, 26.8575]
+      "coordinates": [
+        81.037,
+        26.8575
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Balinese Massage Therapy", "description": "Authentic Balinese oil therapy and acupressure.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Body Scrub & Polish", "description": "Deep cleansing exfoliating body scrub.", "durationMinutes": 45, "price": 1199, "isActive": true },
-      { "name": "Relaxing Full Body Massage", "description": "Smooth full body relaxation massage.", "durationMinutes": 60, "price": 1299, "isActive": true }
+      {
+        "name": "Balinese Massage Therapy",
+        "description": "Authentic Balinese oil therapy and acupressure.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Body Scrub & Polish",
+        "description": "Deep cleansing exfoliating body scrub.",
+        "durationMinutes": 45,
+        "price": 1199,
+        "isActive": true
+      },
+      {
+        "name": "Relaxing Full Body Massage",
+        "description": "Smooth full body relaxation massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      }
     ],
     "averageRating": 4.4,
     "reviewCount": 80,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/The-Crown-Body-Spa-Below-Bank-Of-India-Chinhat/0522PX522-X522-260417175401-F7N2_BZDET",
       "note": "Extracted from Justdial Indira Nagar Body Massage Centres."
-    }
-  },
-  {
-    "name": "The Elegance Body Spa",
-    "description": "Serene luxury body massage parlor at Amrapali Chauraha offering relaxation therapy, aromatherapy, and body polishing.",
-    "address": "Amrapali Chauraha, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Indira Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9858, 26.8732]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Swedish Massage", "description": "Relaxation body massage for stress relief.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Deep muscle tension relief therapy.", "durationMinutes": 60, "price": 1999, "isActive": true },
-      { "name": "Aromatherapy Treatment", "description": "Relaxing oil aromatherapy massage session.", "durationMinutes": 75, "price": 2299, "isActive": true }
-    ],
-    "averageRating": 4.5,
-    "reviewCount": 78,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "note": "Extracted from Indira Nagar local directory search."
-    }
-  },
-  {
-    "name": "Aureum Spa & Wellness",
-    "description": "Luxurious premium bespoke spa and wellness experience offering signature therapies and body scrubs.",
-    "address": "C-187, First Floor, Indira Nagar, Lucknow - 226016",
-    "neighborhood": "Indira Nagar",
-    "location": {
-      "type": "Point",
-      "coordinates": [80.9902, 26.8715]
-    },
-    "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
-    ],
-    "services": [
-      { "name": "Turkish Hammam Bath", "description": "Authentic cleansing and exfoliating Turkish bath.", "durationMinutes": 60, "price": 2999, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Intense deep muscle relaxation massage.", "durationMinutes": 60, "price": 1999, "isActive": true },
-      { "name": "Hot Stone Massage", "description": "Deep heat massage using smooth basalt stones.", "durationMinutes": 75, "price": 2499, "isActive": true }
-    ],
-    "averageRating": 4.8,
-    "reviewCount": 115,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
-    "isActive": true,
-    "source": {
-      "type": "public_web",
-      "note": "Extracted from Indira Nagar local directory search."
     }
   },
   {
@@ -585,28 +551,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9850, 26.8720]
+      "coordinates": [
+        80.985,
+        26.872
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Full Body Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1399, "isActive": true },
-      { "name": "Facial Therapy", "description": "Skin cleansing and brightening facial.", "durationMinutes": 45, "price": 999, "isActive": true },
-      { "name": "Hair Styling & Spa", "description": "Premium hair care, wash, and style.", "durationMinutes": 45, "price": 799, "isActive": true }
+      {
+        "name": "Full Body Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Facial Therapy",
+        "description": "Skin cleansing and brightening facial.",
+        "durationMinutes": 45,
+        "price": 999,
+        "isActive": true
+      },
+      {
+        "name": "Hair Styling & Spa",
+        "description": "Premium hair care, wash, and style.",
+        "durationMinutes": 45,
+        "price": 799,
+        "isActive": true
+      }
     ],
     "averageRating": 3.9,
     "reviewCount": 341,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Pink-Saloon-and-Spa-Faizabad-Road-Indira-Nagar/0522PX522-X522-240212174246-G6F2_BZDET",
       "note": "Sourced from Justdial (Contact: 08128807754)"
     }
@@ -618,28 +642,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9905, 26.8760]
+      "coordinates": [
+        80.9905,
+        26.876
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:30", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:30", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Classic relaxation massage for muscle tension release.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Rejuvenating Facial", "description": "Luxury facial treatment for a radiant glow.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Steam Bath", "description": "Relaxing post-massage steam soak.", "durationMinutes": 30, "price": 599, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Classic relaxation massage for muscle tension release.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Rejuvenating Facial",
+        "description": "Luxury facial treatment for a radiant glow.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Steam Bath",
+        "description": "Relaxing post-massage steam soak.",
+        "durationMinutes": 30,
+        "price": 599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 1176,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Delite-Salon-and-Spa-Neelgiri-Complex-Faizabad-Road-Indira-Nagar/0522PX522-X522-220719124403-Q4E3_BZDET",
       "note": "Sourced from Justdial (Contact: 07801885389)"
     }
@@ -651,28 +733,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9890, 26.8710]
+      "coordinates": [
+        80.989,
+        26.871
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Thai Massage", "description": "Traditional oil-free passive stretching massage.", "durationMinutes": 60, "price": 1200, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Deep muscular relief and stress release.", "durationMinutes": 60, "price": 1699, "isActive": true },
-      { "name": "Foot Reflexology", "description": "Relaxing pressure point therapy for feet.", "durationMinutes": 45, "price": 799, "isActive": true }
+      {
+        "name": "Thai Massage",
+        "description": "Traditional oil-free passive stretching massage.",
+        "durationMinutes": 60,
+        "price": 1200,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Deep muscular relief and stress release.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Foot Reflexology",
+        "description": "Relaxing pressure point therapy for feet.",
+        "durationMinutes": 45,
+        "price": 799,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 662,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Diamond-Parlour-Spa-Behind-Wine-Shop-Polytechnic-Chauraha-Indira-Nagar/0522PX522-X522-230528172901-C9G3_BZDET",
       "note": "Sourced from Justdial (Contact: 08296499839)"
     }
@@ -684,27 +824,79 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9912, 26.8735]
+      "coordinates": [
+        80.9912,
+        26.8735
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Thai Body Massage", "description": "Relaxing traditional Thai body work.", "durationMinutes": 60, "price": 1399, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Stress relief massage with aromatic oils.", "durationMinutes": 75, "price": 1999, "isActive": true }
+      {
+        "name": "Thai Body Massage",
+        "description": "Relaxing traditional Thai body work.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Stress relief massage with aromatic oils.",
+        "durationMinutes": 75,
+        "price": 1999,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 170,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/T-Unisex-Spa-and-Saloon-Indira-Nagar-Lucknow/0522PX522-X522-231120220641-U7P6_BZDET",
       "note": "Sourced from Justdial (Contact: 08401499579)"
     }
@@ -716,27 +908,79 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9865, 26.8725]
+      "coordinates": [
+        80.9865,
+        26.8725
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "tuesday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "wednesday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "thursday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "friday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "saturday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "sunday", "open": "00:00", "close": "23:59", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Full Body Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Exfoliating Body Scrub", "description": "Herbal scrub to clean and polish skin.", "durationMinutes": 45, "price": 1199, "isActive": true }
+      {
+        "name": "Full Body Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Exfoliating Body Scrub",
+        "description": "Herbal scrub to clean and polish skin.",
+        "durationMinutes": 45,
+        "price": 1199,
+        "isActive": true
+      }
     ],
     "averageRating": 4.1,
     "reviewCount": 109,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Pink-Haven-Saloon-and-Spa-Faizabad-Road-Indira-Nagar/0522PX522-X522-240212174246-G6F2_BZDET",
       "note": "Sourced from Justdial (Contact: 07411821739)"
     }
@@ -748,27 +992,79 @@
     "neighborhood": "Chinhat",
     "location": {
       "type": "Point",
-      "coordinates": [81.0180, 26.8830]
+      "coordinates": [
+        81.018,
+        26.883
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Balinese Massage", "description": "Gentle stretches and acupressure therapy.", "durationMinutes": 60, "price": 1699, "isActive": true },
-      { "name": "Thai Massage", "description": "Traditional stretching massage.", "durationMinutes": 60, "price": 1499, "isActive": true }
+      {
+        "name": "Balinese Massage",
+        "description": "Gentle stretches and acupressure therapy.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Thai Massage",
+        "description": "Traditional stretching massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 300,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Urban-Glow-Unisex-Salon-and-Spa-Chinhat-Lucknow/0522PX522-X522-230912163450-H4Z9_BZDET",
       "note": "Sourced from Justdial (Contact: 09008962765)"
     }
@@ -780,27 +1076,79 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9920, 26.8745]
+      "coordinates": [
+        80.992,
+        26.8745
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Deep Tissue Massage", "description": "Therapeutic pressure to release chronic tension.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Relaxing massage with essential oils.", "durationMinutes": 60, "price": 1599, "isActive": true }
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Therapeutic pressure to release chronic tension.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Relaxing massage with essential oils.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 35,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Detox-Body-Spa-C-Block-Indira-Nagar/0522PX522-X522-230819124403-P4E3_BZDET",
       "note": "Sourced from Justdial (Contact: 07947432857)"
     }
@@ -812,27 +1160,79 @@
     "neighborhood": "Chinhat",
     "location": {
       "type": "Point",
-      "coordinates": [81.0195, 26.8845]
+      "coordinates": [
+        81.0195,
+        26.8845
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Body Oil Massage", "description": "Full body relaxation oil massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Revitalizing Facial", "description": "Cleanse and nourish skin with botanical facial.", "durationMinutes": 45, "price": 899, "isActive": true }
+      {
+        "name": "Body Oil Massage",
+        "description": "Full body relaxation oil massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Revitalizing Facial",
+        "description": "Cleanse and nourish skin with botanical facial.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 230,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Rose-Beauty-Spa-Surendra-Nagar-Chinhat/0522PX522-X522-230512142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 07947434771)"
     }
@@ -844,28 +1244,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9972, 26.8753]
+      "coordinates": [
+        80.9972,
+        26.8753
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:30", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Thai Yoga Massage", "description": "Traditional stretching and pressure point yoga massage.", "durationMinutes": 75, "price": 1899, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Intense deep muscle pressure relief.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Hot Stone Therapy", "description": "Relaxation using smooth heated basalt stones.", "durationMinutes": 75, "price": 2299, "isActive": true }
+      {
+        "name": "Thai Yoga Massage",
+        "description": "Traditional stretching and pressure point yoga massage.",
+        "durationMinutes": 75,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Intense deep muscle pressure relief.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Hot Stone Therapy",
+        "description": "Relaxation using smooth heated basalt stones.",
+        "durationMinutes": 75,
+        "price": 2299,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 770,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/The-Body-Spa-Laxmi-Complex-Above-Canera-Bank-Faizabad-Road-Indira-Nagar/0522PX522-X522-220612142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 07942691087)"
     }
@@ -877,28 +1335,86 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0015, 26.8635]
+      "coordinates": [
+        81.0015,
+        26.8635
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Classic gentle strokes massage for relaxation.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Aromatherapy Treatment", "description": "Relaxing essential oil massage session.", "durationMinutes": 75, "price": 1999, "isActive": true },
-      { "name": "Full Body Scrub", "description": "Exfoliating skin rejuvenation treatment.", "durationMinutes": 45, "price": 1299, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Classic gentle strokes massage for relaxation.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Treatment",
+        "description": "Relaxing essential oil massage session.",
+        "durationMinutes": 75,
+        "price": 1999,
+        "isActive": true
+      },
+      {
+        "name": "Full Body Scrub",
+        "description": "Exfoliating skin rejuvenation treatment.",
+        "durationMinutes": 45,
+        "price": 1299,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 173,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Golden-Unisex-Salon-and-Spa-Vibhuti-Khand-Gomti-Nagar/0522PX522-X522-230412142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 08460233722)"
     }
@@ -910,28 +1426,86 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0035, 26.8640]
+      "coordinates": [
+        81.0035,
+        26.864
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Premium Thai Massage", "description": "Traditional stretching massage with herbal compress.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Deep Tissue Relief", "description": "Intense massage focusing on deep muscle layers.", "durationMinutes": 75, "price": 2299, "isActive": true },
-      { "name": "Luxury Organic Facial", "description": "Premium botanical facial for instant glow.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Premium Thai Massage",
+        "description": "Traditional stretching massage with herbal compress.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Relief",
+        "description": "Intense massage focusing on deep muscle layers.",
+        "durationMinutes": 75,
+        "price": 2299,
+        "isActive": true
+      },
+      {
+        "name": "Luxury Organic Facial",
+        "description": "Premium botanical facial for instant glow.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.8,
     "reviewCount": 29,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Era-One-2-0-Spa-and-Salon-Vibhuti-Khand-Gomti-Nagar/0522PX522-X522-230919124403-Q4E3_BZDET",
       "note": "Sourced from Justdial (Contact: 08147038830)"
     }
@@ -943,28 +1517,86 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0025, 26.8628]
+      "coordinates": [
+        81.0025,
+        26.8628
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Traditional Thai Massage", "description": "Authentic oil-free pressure point stretching massage.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Balinese Oil Therapy", "description": "Aromatherapy massage with Balinese strokes.", "durationMinutes": 75, "price": 2199, "isActive": true },
-      { "name": "Herbal Compress", "description": "Soothing warm herbal compress therapy.", "durationMinutes": 30, "price": 999, "isActive": true }
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Authentic oil-free pressure point stretching massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Balinese Oil Therapy",
+        "description": "Aromatherapy massage with Balinese strokes.",
+        "durationMinutes": 75,
+        "price": 2199,
+        "isActive": true
+      },
+      {
+        "name": "Herbal Compress",
+        "description": "Soothing warm herbal compress therapy.",
+        "durationMinutes": 30,
+        "price": 999,
+        "isActive": true
+      }
     ],
     "averageRating": 4.4,
     "reviewCount": 805,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Ora-Thai-Spa-Vibhuti-Khand-Gomti-Nagar/0522PX522-X522-230212142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 08296541380)"
     }
@@ -976,28 +1608,86 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9955, 26.8585]
+      "coordinates": [
+        80.9955,
+        26.8585
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Rejuvenating Glow Facial", "description": "Deep cleanse and hydrating botanical facial.", "durationMinutes": 60, "price": 1999, "isActive": true },
-      { "name": "Luxury Hair Spa & Therapy", "description": "Conditioning hair mask, massage, and wash.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Premium Body Polish", "description": "Exfoliating and moisturizing body polish.", "durationMinutes": 75, "price": 2499, "isActive": true }
+      {
+        "name": "Rejuvenating Glow Facial",
+        "description": "Deep cleanse and hydrating botanical facial.",
+        "durationMinutes": 60,
+        "price": 1999,
+        "isActive": true
+      },
+      {
+        "name": "Luxury Hair Spa & Therapy",
+        "description": "Conditioning hair mask, massage, and wash.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Premium Body Polish",
+        "description": "Exfoliating and moisturizing body polish.",
+        "durationMinutes": 75,
+        "price": 2499,
+        "isActive": true
+      }
     ],
     "averageRating": 4.6,
     "reviewCount": 1665,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Lakme-Salon-Rohtas-Arcade-Gomti-Nagar/0522PX522-X522-210412142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 07947104069)"
     }
@@ -1009,27 +1699,79 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9875, 26.8645]
+      "coordinates": [
+        80.9875,
+        26.8645
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:30", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:30", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:30",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Glow Facial Treatment", "description": "Skin whitening and deep pore cleansing facial.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Stress Relief Head Massage", "description": "Acupressure head, neck, and shoulder massage.", "durationMinutes": 30, "price": 599, "isActive": true }
+      {
+        "name": "Glow Facial Treatment",
+        "description": "Skin whitening and deep pore cleansing facial.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Stress Relief Head Massage",
+        "description": "Acupressure head, neck, and shoulder massage.",
+        "durationMinutes": 30,
+        "price": 599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.6,
     "reviewCount": 578,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Larabeauty-Makeup-Mantra-Bhoothnath-Market-Indira-Nagar/0522PX522-X522-220912142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 07947138291)"
     }
@@ -1041,28 +1783,86 @@
     "neighborhood": "Indira Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9902, 26.8655]
+      "coordinates": [
+        80.9902,
+        26.8655
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Premium Gold Facial", "description": "Rejuvenating gold facial therapy.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Relaxing full body essential oil massage.", "durationMinutes": 60, "price": 1599, "isActive": true },
-      { "name": "Relaxing Foot Massage", "description": "Pressure point foot reflexology.", "durationMinutes": 30, "price": 699, "isActive": true }
+      {
+        "name": "Premium Gold Facial",
+        "description": "Rejuvenating gold facial therapy.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Relaxing full body essential oil massage.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      },
+      {
+        "name": "Relaxing Foot Massage",
+        "description": "Pressure point foot reflexology.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
     ],
     "averageRating": 4.6,
     "reviewCount": 553,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Laura-Beauty-Mantra-Agarwal-Market-Indira-Nagar/0522PX522-X522-220919142211-T8N1_BZDET",
       "note": "Sourced from Justdial (Contact: 07947152137)"
     }
@@ -1074,28 +1874,86 @@
     "neighborhood": "Hazratganj",
     "location": {
       "type": "Point",
-      "coordinates": [80.948212, 26.8524317]
+      "coordinates": [
+        80.948212,
+        26.8524317
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Traditional Thai Massage", "description": "Authentic full body massage with stretching.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Soothing oil massage to calm the senses.", "durationMinutes": 60, "price": 1799, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Firm pressure massage to relieve muscle knots.", "durationMinutes": 75, "price": 1999, "isActive": true }
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Authentic full body massage with stretching.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Soothing oil massage to calm the senses.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure massage to relieve muscle knots.",
+        "durationMinutes": 75,
+        "price": 1999,
+        "isActive": true
+      }
     ],
     "averageRating": 3.9,
     "reviewCount": 142,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/Apple-Thai-Spa-And-Unisex-Saloon-Near-Shanti-Complex-Hazratganj/0522PX522-X522-190118124211-T8N1_BZDET",
       "note": "Sourced from Hazratganj search results (Contact: 07947152137)"
     }
@@ -1107,28 +1965,86 @@
     "neighborhood": "Hazratganj",
     "location": {
       "type": "Point",
-      "coordinates": [80.9460, 26.8530]
+      "coordinates": [
+        80.946,
+        26.853
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "tuesday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "wednesday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "thursday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "friday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "saturday", "open": "00:00", "close": "23:59", "isClosed": false },
-      { "day": "sunday", "open": "00:00", "close": "23:59", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "00:00",
+        "close": "23:59",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Relaxing full body Swedish oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Firm pressure massage to relieve tension.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Steam Bath", "description": "Relaxing steam bath session.", "durationMinutes": 30, "price": 599, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Relaxing full body Swedish oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure massage to relieve tension.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Steam Bath",
+        "description": "Relaxing steam bath session.",
+        "durationMinutes": 30,
+        "price": 599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.1,
     "reviewCount": 85,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1140,27 +2056,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0010, 26.8590]
+      "coordinates": [
+        81.001,
+        26.859
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Traditional Thai Massage", "description": "Traditional stretching oil-free massage.", "durationMinutes": 60, "price": 1699, "isActive": true },
-      { "name": "Balinese Massage", "description": "Gentle oil massage with stretching.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Traditional stretching oil-free massage.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Balinese Massage",
+        "description": "Gentle oil massage with stretching.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.5,
     "reviewCount": 240,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1172,27 +2140,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0080, 26.8610]
+      "coordinates": [
+        81.008,
+        26.861
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Full Body Relaxation Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Head & Shoulder Massage", "description": "Focused neck, head and shoulder relief.", "durationMinutes": 30, "price": 699, "isActive": true }
+      {
+        "name": "Full Body Relaxation Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Head & Shoulder Massage",
+        "description": "Focused neck, head and shoulder relief.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 42,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1204,27 +2224,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0005, 26.8650]
+      "coordinates": [
+        81.0005,
+        26.865
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Muscular tension relief massage.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Muscular tension relief massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 115,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1236,27 +2308,79 @@
     "neighborhood": "Mahanagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9575, 26.8770]
+      "coordinates": [
+        80.9575,
+        26.877
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Balinese Massage", "description": "Stretches and acupressure massage.", "durationMinutes": 60, "price": 1699, "isActive": true },
-      { "name": "Rejuvenating Facial", "description": "Hydrating botanical facial.", "durationMinutes": 45, "price": 1199, "isActive": true }
+      {
+        "name": "Balinese Massage",
+        "description": "Stretches and acupressure massage.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Rejuvenating Facial",
+        "description": "Hydrating botanical facial.",
+        "durationMinutes": 45,
+        "price": 1199,
+        "isActive": true
+      }
     ],
     "averageRating": 4.3,
     "reviewCount": 180,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1268,27 +2392,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0120, 26.8560]
+      "coordinates": [
+        81.012,
+        26.856
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:30", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Aromatherapy Massage", "description": "Essential-oil massage for deep relaxation.", "durationMinutes": 60, "price": 1599, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Intense deep muscle pressure relief.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Essential-oil massage for deep relaxation.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Intense deep muscle pressure relief.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.4,
     "reviewCount": 298,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1300,27 +2476,79 @@
     "neighborhood": "Sneh Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9320, 26.8080]
+      "coordinates": [
+        80.932,
+        26.808
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1399, "isActive": true },
-      { "name": "Body Polishing & Scrub", "description": "Cleansing body polish.", "durationMinutes": 60, "price": 1799, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Body Polishing & Scrub",
+        "description": "Cleansing body polish.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 54,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1332,27 +2560,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0250, 26.8450]
+      "coordinates": [
+        81.025,
+        26.845
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Full body relaxation oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Massage using soothing essential oils.", "durationMinutes": 60, "price": 1699, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Full body relaxation oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Massage using soothing essential oils.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      }
     ],
     "averageRating": 4.1,
     "reviewCount": 90,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1364,27 +2644,79 @@
     "neighborhood": "Vikas Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.9630, 26.8985]
+      "coordinates": [
+        80.963,
+        26.8985
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "21:30", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "21:30", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Traditional Thai Massage", "description": "Authentic oil-free passive stretching massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Exfoliating Body Scrub", "description": "Cleansing body polish treatment.", "durationMinutes": 45, "price": 999, "isActive": true }
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Authentic oil-free passive stretching massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Exfoliating Body Scrub",
+        "description": "Cleansing body polish treatment.",
+        "durationMinutes": 45,
+        "price": 999,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 110,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1396,27 +2728,79 @@
     "neighborhood": "Gomti Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [81.0040, 26.8615]
+      "coordinates": [
+        81.004,
+        26.8615
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:30", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Classic full body relaxation massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Intense deep muscle pressure relief.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Classic full body relaxation massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Intense deep muscle pressure relief.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
     "averageRating": 4.5,
     "reviewCount": 420,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1428,27 +2812,79 @@
     "neighborhood": "Krishna Nagar",
     "location": {
       "type": "Point",
-      "coordinates": [80.8980, 26.7970]
+      "coordinates": [
+        80.898,
+        26.797
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Thai Body Massage", "description": "Traditional stretching massage.", "durationMinutes": 60, "price": 1399, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Relaxing massage with aromatic essential oils.", "durationMinutes": 60, "price": 1599, "isActive": true }
+      {
+        "name": "Thai Body Massage",
+        "description": "Traditional stretching massage.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Relaxing massage with aromatic essential oils.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.1,
     "reviewCount": 95,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1460,27 +2896,79 @@
     "neighborhood": "Alambagh",
     "location": {
       "type": "Point",
-      "coordinates": [80.9020, 26.8050]
+      "coordinates": [
+        80.902,
+        26.805
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Relaxing full body Swedish oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Firm pressure massage to relieve tension.", "durationMinutes": 60, "price": 1899, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Relaxing full body Swedish oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure massage to relieve tension.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
     ],
-    "averageRating": 4.0,
+    "averageRating": 4,
     "reviewCount": 165,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1492,27 +2980,79 @@
     "neighborhood": "Rai Bareli Road",
     "location": {
       "type": "Point",
-      "coordinates": [80.9410, 26.7850]
+      "coordinates": [
+        80.941,
+        26.785
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "10:00", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "10:00", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Full Body Relaxation", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1299, "isActive": true },
-      { "name": "Head & Shoulder Acupressure", "description": "Focused neck and head relief.", "durationMinutes": 30, "price": 599, "isActive": true }
+      {
+        "name": "Full Body Relaxation",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Head & Shoulder Acupressure",
+        "description": "Focused neck and head relief.",
+        "durationMinutes": 30,
+        "price": 599,
+        "isActive": true
+      }
     ],
     "averageRating": 4.1,
     "reviewCount": 78,
-    "images": ["https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
     }
@@ -1524,30 +3064,1096 @@
     "neighborhood": "Hazratganj",
     "location": {
       "type": "Point",
-      "coordinates": [80.9390, 26.8420]
+      "coordinates": [
+        80.939,
+        26.842
+      ]
     },
     "operatingHours": [
-      { "day": "monday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "tuesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "wednesday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "thursday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "friday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "saturday", "open": "09:30", "close": "22:00", "isClosed": false },
-      { "day": "sunday", "open": "09:30", "close": "22:00", "isClosed": false }
+      {
+        "day": "monday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      }
     ],
     "services": [
-      { "name": "Swedish Massage", "description": "Relaxing full body oil massage.", "durationMinutes": 60, "price": 1499, "isActive": true },
-      { "name": "Deep Tissue Massage", "description": "Firm pressure massage to relieve tension.", "durationMinutes": 60, "price": 1899, "isActive": true },
-      { "name": "Aromatherapy Massage", "description": "Relaxing massage with essential oils.", "durationMinutes": 60, "price": 1699, "isActive": true }
+      {
+        "name": "Swedish Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure massage to relieve tension.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Relaxing massage with essential oils.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      }
     ],
     "averageRating": 4.2,
     "reviewCount": 110,
-    "images": ["https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"],
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
     "isActive": true,
     "source": {
-      "type": "public_web",
+      "type": "justdial",
       "url": "https://www.justdial.com/Lucknow/24-Hours-Body-Massage-Centres-in-Faizabad-Road/nct-11147142",
       "note": "Sourced from Faizabad Road Justdial page."
+    }
+  },
+  {
+    "name": "Mangobite Unisex Saloon",
+    "description": "Full-service salon and spa near Awadh Chauraha, Sneh Nagar offering body massage, facial treatments, and body wellness packages.",
+    "address": "Near By Awadh Chauraha, VIP Road, Sneh Nagar, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.905,
+        26.818
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Full Body Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure massage to relieve tension.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Facial Therapy",
+        "description": "Hydrating and brightening facial treatment.",
+        "durationMinutes": 45,
+        "price": 999,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 142,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Mangobite-Unisex-Saloon-Near-By-Awadh-Chauraha-Sneh-Nagar/0522PX522-X522-231209140520-D9G6_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "S R Unisex Salon",
+    "description": "Unisex salon and spa near Eco Garden and Krishna Homeopathic Center offering stress-buster body massages and hair care.",
+    "address": "Near Krishna Homeopathic and Research Center, Near Eco Garden, VIP Road, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9085,
+        26.8165
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Massage",
+        "description": "Classic relaxation body oil massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Soothing massage using natural essential oils.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Head & Neck Therapy",
+        "description": "Focused acupressure for head and neck strain.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.4,
+    "reviewCount": 98,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/S-R-Unisex-Salon-Near-Krishna-Homeopathic-and-Research-Center-Near-Eco-Garden-Alambagh/0522PX522-X522-181227141534-L6K2_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "Relax Zone Unisex Salon and Spa",
+    "description": "Popular relaxation spa near Raj Chandra Hospital providing steam therapy, Thai stretch massage, and full body rejuvenation.",
+    "address": "Near By Raj Chandra Hospital, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.903,
+        26.815
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Thai Massage",
+        "description": "Traditional passive stretching body therapy.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Relief",
+        "description": "Targeted deep muscle pain relief massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Herbal Steam Bath",
+        "description": "Therapeutic post-massage steam session.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 115,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Relax-Zone-Unisex-Salon-And-Spa-Near-By-Raj-Chandra-Hospital-Alambagh/0522PX522-X522-230502184143-E5X4_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "Relax Point Unisex Salon and Spa",
+    "description": "Wellness center in Transport Nagar offering classic body massages, foot reflexology, and skin scrub polishing.",
+    "address": "Kanpur Road, Transport Nagar, Lucknow - 226012",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.893,
+        26.785
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Full Body Relaxation",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Foot Reflexology",
+        "description": "Traditional foot pressure point massage.",
+        "durationMinutes": 45,
+        "price": 799,
+        "isActive": true
+      },
+      {
+        "name": "Body Scrub & Polish",
+        "description": "Exfoliating skin care treatment.",
+        "durationMinutes": 45,
+        "price": 1199,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.3,
+    "reviewCount": 86,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Relax-Point-Unisex-Salon-And-Spa-Transport-Nagar/0522PX522-X522-240115135736-Q2X1_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "The Relax Body Center",
+    "description": "Full-body spa facility on Kanpur Road, Baldikhera featuring therapeutic muscle massages and hot stone relaxation.",
+    "address": "Near By Baldikheda, Kanpur Road, Baldikhera, Lucknow - 226012",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.8945,
+        26.789
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Massage",
+        "description": "Deep muscle relaxation and stress relief.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Hot Stone Massage",
+        "description": "Therapeutic heated stone treatment.",
+        "durationMinutes": 75,
+        "price": 2199,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Treatment",
+        "description": "Aromatic essential oil relaxation massage.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 94,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/The-Relax-Body-Center-Near-By-Baldikheda-Baldikhera/0522PX522-X522-211111135652-I5N6_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "The Orio Gold Spa",
+    "description": "Luxury body massage and spa destination on Kanpur Road offering gold facial, Swedish, and Balinese massage therapies.",
+    "address": "Kanpur Road, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.904,
+        26.814
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "09:30",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Balinese Massage",
+        "description": "Traditional Balinese oil massage and acupressure.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Signature Gold Spa Ritual",
+        "description": "Premium luxury gold oil full body massage.",
+        "durationMinutes": 90,
+        "price": 2799,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Deep muscle tension release treatment.",
+        "durationMinutes": 60,
+        "price": 1999,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.7,
+    "reviewCount": 168,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/The-Orio-Gold-Sp-Kanpur-Road-Alambagh/0522PX522-X522-260407122009-K2A3_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "Thai Square",
+    "description": "Authentic Thai spa near Phoenix United Mall Gate No. 3 featuring traditional Thai yoga massage, herbal compression, and reflexology.",
+    "address": "Opposite Phoenix United Mall Gate No 3, Ashiyana Road, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9065,
+        26.805
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Traditional Thai Massage",
+        "description": "Oil-free passive stretching and compression massage.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Thai Herbal Poultice Therapy",
+        "description": "Warm herbal compress for deep muscle pain.",
+        "durationMinutes": 75,
+        "price": 2299,
+        "isActive": true
+      },
+      {
+        "name": "Thai Foot Reflexology",
+        "description": "Deep pressure point foot massage.",
+        "durationMinutes": 45,
+        "price": 999,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.8,
+    "reviewCount": 210,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Thai-Square-Opposite-Phoenix-United-Mall-Gate-No-3-Alambagh/0522PX522-X522-230920145750-N3H4_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "Royal Lavish",
+    "description": "Bespoke luxury spa center on VIP Road near HP Petrol Pump offering premium relaxation massages and steam baths.",
+    "address": "Near HP Petrol Pump, VIP Road, Muslim Nagar, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9075,
+        26.8185
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Royal Lavish Massage",
+        "description": "Signature full body relaxation therapy.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Swedish Oil Therapy",
+        "description": "Stress relief classic body massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Steam & Detox Bath",
+        "description": "Refreshing herbal steam session.",
+        "durationMinutes": 30,
+        "price": 799,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 135,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Royal-Lavish-Hp-Petrol-Pump-Muslim-Nagar/0522PX522-X522-260718143328-L9Z7_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "Touch Glow St Unisex Spa and Saloon",
+    "description": "Well-rated body massage center in Krishna Nagar offering affordable massages starting at Rs. 1000, aromatherapy, and deep tissue treatments.",
+    "address": "Bargawa Ld Complex Street, Near By Surya Hotel, Kanpur Road, Krishna Nagar, Lucknow - 226005",
+    "neighborhood": "Krishna Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.899,
+        26.798
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Essential Body Massage",
+        "description": "Full body relaxation oil massage.",
+        "durationMinutes": 60,
+        "price": 1000,
+        "isActive": true
+      },
+      {
+        "name": "Deep Muscle Relief",
+        "description": "Firm pressure deep tissue massage.",
+        "durationMinutes": 60,
+        "price": 1500,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Calming essential oil treatment.",
+        "durationMinutes": 75,
+        "price": 1800,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 178,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Touch-Glow-St-Unisex-Spa-And-Saloon-Near-By-Surya-Hotel-Krishna-Nagar/0522PX522-X522-191206103841-B7N5_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Krishna Nagar."
+    }
+  },
+  {
+    "name": "Honey Moon Unisex Saloon",
+    "description": "Full-service salon and spa near Chandan Nagar Chauraha offering full body massages, hair styling, and relaxing facials.",
+    "address": "Near Chandan Nagar Chauraha, Kanpur Road, Alambagh, Lucknow - 226005",
+    "neighborhood": "Alambagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9015,
+        26.811
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Massage",
+        "description": "Classic stress relieving full body massage.",
+        "durationMinutes": 60,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Body Scrub & Polish",
+        "description": "Exfoliating body polishing session.",
+        "durationMinutes": 45,
+        "price": 999,
+        "isActive": true
+      },
+      {
+        "name": "Rejuvenating Facial",
+        "description": "Deep cleansing skin renewal facial.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.4,
+    "reviewCount": 104,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Honey-Moon-Unisex-Saloon-Near-Chandan-Nagar-Chauraha-Alambagh/0522PX522-X522-250410214459-P6F2_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Alambagh."
+    }
+  },
+  {
+    "name": "S.S Velvet Touch Spa",
+    "description": "Premium unisex relaxation spa offering Swedish massage, velvet touch body polish, aromatherapy, and deep muscle relief in Ramprasad Bismil Nagar.",
+    "address": "Sanik Nagar, Ramprasad Bismil Nagar, Kanpur Road, Krishna Nagar, Lucknow - 226005",
+    "neighborhood": "Krishna Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.8985,
+        26.797
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Massage",
+        "description": "Classic stress-relieving full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Velvet Touch Body Polish",
+        "description": "Gentle skin exfoliating polish treatment.",
+        "durationMinutes": 45,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Therapy",
+        "description": "Targeted muscle tension release massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Relaxing essential oil massage session.",
+        "durationMinutes": 75,
+        "price": 2199,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 112,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/SS-Velvet-Touch-Spa-Ramprasad-Bismil-Nagar-Alambag-Lucknow-Alambagh/0522PX522-X522-260710180122-X8U5_BZDET",
+      "note": "Extracted from Justdial Beauty Spas in Krishna Nagar."
     }
   }
 ]

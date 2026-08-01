@@ -16,6 +16,12 @@ export interface IOperatingHours {
   isClosed: boolean;
 }
 
+export interface ISpaSource {
+  type: string;
+  url?: string;
+  note?: string;
+}
+
 export interface ISpa extends Document {
   name: string;
   description: string;
@@ -31,6 +37,7 @@ export interface ISpa extends Document {
   reviewCount: number;
   images: string[];
   isActive: boolean;
+  source?: ISpaSource;
 }
 
 const spaServiceSchema = new Schema<ISpaService>(
@@ -83,6 +90,27 @@ const operatingHoursSchema = new Schema<IOperatingHours>(
     isClosed: {
       type: Boolean,
       default: false,
+    },
+  },
+  { _id: false }
+);
+
+const spaSourceSchema = new Schema<ISpaSource>(
+  {
+    type: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    url: {
+      type: String,
+      trim: true,
+      default: '',
+    },
+    note: {
+      type: String,
+      trim: true,
+      default: '',
     },
   },
   { _id: false }
@@ -157,6 +185,10 @@ const spaSchema = new Schema<ISpa>(
       type: Boolean,
       default: true,
       index: true,
+    },
+    source: {
+      type: spaSourceSchema,
+      default: undefined,
     },
   },
   { timestamps: true }
