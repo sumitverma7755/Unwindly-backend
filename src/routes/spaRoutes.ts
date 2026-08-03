@@ -93,6 +93,13 @@ router.get('/nearby', async (req: Request, res: Response, next: NextFunction) =>
     // Execute query
     let spas = await Spa.find(dbQuery).lean();
 
+    // Fallback: If 0 spas found due to geo-restriction (user outside 10km radius), fallback to non-geo query
+    if (spas.length === 0 && hasCoords) {
+      delete dbQuery.location;
+      spas = await Spa.find(dbQuery).lean();
+    }
+
+
     // Custom sorting since Mongoose $near might not play nice with other manual sorts, or for non-geo queries
     if (sort === 'rating') {
       spas.sort((a, b) => (b.averageRating || 0) - (a.averageRating || 0));

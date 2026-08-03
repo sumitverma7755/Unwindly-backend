@@ -4155,5 +4155,936 @@
       "url": "https://www.justdial.com/Lucknow/SS-Velvet-Touch-Spa-Ramprasad-Bismil-Nagar-Alambag-Lucknow-Alambagh/0522PX522-X522-260710180122-X8U5_BZDET",
       "note": "Extracted from Justdial Beauty Spas in Krishna Nagar."
     }
+  },
+  {
+    "name": "The New King Salon and Spa",
+    "description": "Premier unisex salon and relaxation spa located near SGPGI Campus offering deep muscle therapy, facials, and hair care.",
+    "address": "Near SGPGI, Raibareli Road, Sgpgi Campus, Lucknow - 226014",
+    "neighborhood": "Sgpgi Campus",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9382,
+        26.7485
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Full Body Massage",
+        "description": "Full body stress relief and relaxation massage.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Deep Muscle Relief",
+        "description": "Targeted deep tissue muscle pressure therapy.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Hair & Head Spa",
+        "description": "Nourishing hair spa and relaxing scalp massage.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 142,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/The-New-King-Salon-And-Spa-Near-SGPGI-Lucknow-Sgpgi-Campus/0522PX522-X522-211005160502-B8T9_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "New Just Relief Unisex Salon & Spa",
+    "description": "Wellness retreat specializing in therapeutic massages, head/neck acupressure, and custom facial treatments.",
+    "address": "Raibareli Road, Sgpgi Campus, Lucknow - 226014",
+    "neighborhood": "Sgpgi Campus",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9395,
+        26.749
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:30",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Body Massage",
+        "description": "Relaxing light-to-medium oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Head & Shoulder Acupressure",
+        "description": "Acupressure treatment for upper body tension.",
+        "durationMinutes": 30,
+        "price": 699,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.4,
+    "reviewCount": 98,
+    "images": [
+      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/New-Just-Relief-Unisex-Salon-Spa-Near-PGI-Sgpgi-Campus/0522PX522-X522-220222124901-A9K5_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "New O2 Salon and Spa",
+    "description": "Modern spa center near Shiva Palace in Lalbagh offering essential oil massages and skin cleansing.",
+    "address": "Near By Shiva Palace, Lalbagh, Lucknow - 226001",
+    "neighborhood": "Lalbagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9412,
+        26.848
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Aromatherapy Massage",
+        "description": "Essential oils relaxation therapy.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Firm pressure muscle relief massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.3,
+    "reviewCount": 86,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/New-O2-Salon-And-Spa-Near-By-Shiva-Palace-Lalbagh/0522PX522-X522-230412135208-Z5N2_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Royal Unisex Salon Spa",
+    "description": "Renowned spa destination in Gomti Nagar near Study Hall School offering luxury body polish and therapeutic massages.",
+    "address": "Near Study Hall School, Opp CMS, Gomti Nagar, Lucknow - 226010",
+    "neighborhood": "Gomti Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0024,
+        26.8521
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Royal Lavish Full Body Massage",
+        "description": "Signature holistic body massage.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Herbal Facial & Polish",
+        "description": "Exfoliating herbal skin treatment.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 154,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Royal-Unisex-Salon-Spa-Opp-Cms-Gomti-Nga-Gomti-Nagar/0522PX522-X522-181031125821-V8D6_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Delite Salon and S Pa",
+    "description": "Relaxing spa near IIM Road on Sitapur Road providing herbal steam baths and deep muscle therapies.",
+    "address": "Near IIM Road, Sitapur Road, Aziz Nagar, Lucknow - 226021",
+    "neighborhood": "Aziz Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9251,
+        26.9152
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Swedish Massage",
+        "description": "Classic relaxing oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      },
+      {
+        "name": "Steam & Sauna Therapy",
+        "description": "Detoxifying warm steam session.",
+        "durationMinutes": 30,
+        "price": 599,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 210,
+    "images": [
+      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Delite-Salon-And-S-Pa-Near-IIM-Road-Aziz-Nagar/0522PX522-X522-191211104116-N8M7_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Just Heaven Spa",
+    "description": "Tranquil spa sanctuary in Gomti Nagar offering specialized couple wellness massages and aromatherapies.",
+    "address": "Patrakarpuram Crossing, Gomti Nagar, Lucknow - 226010",
+    "neighborhood": "Gomti Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9998,
+        26.8485
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavenly Aromatherapy",
+        "description": "Essential oils relaxation therapy.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Couples Massage Retreat",
+        "description": "Side-by-side couples massage.",
+        "durationMinutes": 90,
+        "price": 3599,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.4,
+    "reviewCount": 112,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Just-Heaven-Gomti-Nagar/0522PX522-X522-191002145358-B5H9_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "New Thought Salon and Spa",
+    "description": "Wellness center in Aishbagh near Bhatiya Bakery offering traditional massage and hair therapies.",
+    "address": "Near Bhatiya Bakery, Naka Hindola, Aishbagh Road, Lucknow - 226004",
+    "neighborhood": "Aishbagh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9215,
+        26.8398
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Thai Body Massage",
+        "description": "Traditional stretching and pressure therapy.",
+        "durationMinutes": 60,
+        "price": 1399,
+        "isActive": true
+      },
+      {
+        "name": "Express Facial",
+        "description": "Quick herbal skin hydration facial.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.3,
+    "reviewCount": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/New-Thought-Salon-And-Spa-Near-Bhatiya-Bakery-Aishbagh/0522PX522-X522-230811142045-X9V8_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Silk Unisex Salon and Spa",
+    "description": "Modern spa center in Gomti Nagar Extension offering premium body massage, hair spa, and aromatherapy.",
+    "address": "Shaheed Path Road, Gomti Nagar Extension, Lucknow - 226010",
+    "neighborhood": "Gomti Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0112,
+        26.8355
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Silk Body Polishing",
+        "description": "Exfoliating silk skin polish.",
+        "durationMinutes": 60,
+        "price": 1799,
+        "isActive": true
+      },
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Relieves deep muscle soreness.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 130,
+    "images": [
+      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Silk-Unisex-Salon-and-Spa-Gomti-Nagar-Extension/0522PX522-X522-230915124403-Q4E3_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Kura Sparadise Spa & Salon",
+    "description": "Luxury wellness spa located in Vinamra Khand near Singapore Mall offering reflexology and facial therapy.",
+    "address": "Near Singapore Mall, Vinamra Khand, Gomti Nagar, Lucknow - 226010",
+    "neighborhood": "Gomti Nagar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.0085,
+        26.8492
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "22:00",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Balinese Therapy",
+        "description": "Traditional pressure point therapy.",
+        "durationMinutes": 60,
+        "price": 1699,
+        "isActive": true
+      },
+      {
+        "name": "Foot Reflexology",
+        "description": "Targeted foot pressure reflexology.",
+        "durationMinutes": 45,
+        "price": 899,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.7,
+    "reviewCount": 185,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Kura-Sparadise-Spa-and-Salon-Vinamra-Khand-Gomti-Nagar/0522PX522-X522-240112142211-T8N1_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "The Paradise Spa",
+    "description": "Popular body spa center in Hazratganj near Cathedral School featuring deep tissue therapy and oil treatments.",
+    "address": "Near Cathedral School, Hazratganj, Lucknow - 226001",
+    "neighborhood": "Hazratganj",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9465,
+        26.851
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Deep Tissue Massage",
+        "description": "Deep muscle tension relief.",
+        "durationMinutes": 60,
+        "price": 1899,
+        "isActive": true
+      },
+      {
+        "name": "Swedish Massage",
+        "description": "Soothing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1499,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.6,
+    "reviewCount": 220,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/The-Paradise-Spa-Hazratganj/0522PX522-X522-220812142211-T8N1_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
+  },
+  {
+    "name": "Sea Salt Spa & Salon",
+    "description": "Exquisite body spa center in Aliganj near Kapoorthala Chauraha known for sea salt scrubs and body polishing.",
+    "address": "Near Kapoorthala Chauraha, Aliganj, Lucknow - 226024",
+    "neighborhood": "Aliganj",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9388,
+        26.8872
+      ]
+    },
+    "operatingHours": [
+      {
+        "day": "monday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "tuesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "wednesday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "thursday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "friday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "saturday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      },
+      {
+        "day": "sunday",
+        "open": "10:00",
+        "close": "21:30",
+        "isClosed": false
+      }
+    ],
+    "services": [
+      {
+        "name": "Sea Salt Body Scrub",
+        "description": "Exfoliating sea salt treatment.",
+        "durationMinutes": 45,
+        "price": 1299,
+        "isActive": true
+      },
+      {
+        "name": "Full Body Massage",
+        "description": "Relaxing full body oil massage.",
+        "durationMinutes": 60,
+        "price": 1599,
+        "isActive": true
+      }
+    ],
+    "averageRating": 4.5,
+    "reviewCount": 160,
+    "images": [
+      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=900&q=85"
+    ],
+    "isActive": true,
+    "source": {
+      "type": "justdial",
+      "url": "https://www.justdial.com/Lucknow/Sea-Salt-Spa-and-Salon-Aliganj/0522PX522-X522-230712142211-T8N1_BZDET",
+      "note": "Fetched live from Justdial Lucknow."
+    }
   }
 ]

@@ -7,6 +7,8 @@ import { acquireSlotLock } from './config/redis';
 import spaRoutes from './routes/spaRoutes';
 import authRoutes from './routes/authRoutes';
 import bookingRoutes from './routes/bookingRoutes';
+import productRoutes from './routes/productRoutes';
+import adminRoutes from './routes/adminRoutes';
 
 dotenv.config();
 
@@ -19,6 +21,8 @@ app.use(express.json());
 app.use('/api/spas', spaRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/bookings', bookingRoutes);
+app.use('/api/products', productRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Serve Static Web Frontend Assets
 const publicDir = path.join(process.cwd(), 'public');
@@ -69,10 +73,14 @@ app.use((err: Error, _req: Request, res: Response, _next: express.NextFunction) 
 
 const startServer = async (): Promise<void> => {
   try {
-    await connectDatabase();
+    try {
+      await connectDatabase();
+    } catch (dbError) {
+      console.warn('Database connection warning (running in standalone mode):', dbError);
+    }
 
     app.listen(PORT, () => {
-      console.log(`\nSanctuary Spa Finder App live at: http://localhost:${PORT}`);
+      console.log(`\nGraven Automation Web & Smart Product Scanner live at: http://localhost:${PORT}`);
       console.log(`Health check: http://localhost:${PORT}/health\n`);
     });
   } catch (error) {
