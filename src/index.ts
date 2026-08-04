@@ -124,8 +124,9 @@ const startServer = async (): Promise<void> => {
     }
 
     app.listen(PORT, () => {
-      console.log(`\nUnwindly Spa Finder Backend API live at: http://localhost:${PORT}`);
-      console.log(`Health check: http://localhost:${PORT}/health\n`);
+      const baseUrl = process.env.RENDER_EXTERNAL_URL || process.env.SERVER_URL || `http://localhost:${PORT}`;
+      console.log(`\nUnwindly Spa Finder Backend API live at: ${baseUrl}`);
+      console.log(`Health check: ${baseUrl}/health\n`);
     });
   } catch (error) {
     console.error('Failed to start server:', error);
