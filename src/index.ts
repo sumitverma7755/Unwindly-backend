@@ -24,6 +24,50 @@ app.use('/api/bookings', bookingRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/admin', adminRoutes);
 
+// Base64 Image Upload Endpoint
+app.post('/api/upload', (req: Request, res: Response) => {
+  try {
+    const { name, data } = req.body;
+    if (!name || !data) {
+      return res.status(400).json({ message: 'Filename and base64 data are required.' });
+    }
+
+    const fs = require('fs');
+    const base64Data = data.replace(/^data:image\/\w+;base64,/, "");
+    const buffer = Buffer.from(base64Data, 'base64');
+
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+    const ext = path.extname(name) || '.jpg';
+    const filename = `spa-${uniqueSuffix}${ext}`;
+    
+    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    if (!fs.existsSync(uploadsDir)) {
+      fs.mkdirSync(uploadsDir, { recursive: true });
+    }
+
+    const filepath = path.join(uploadsDir, filename);
+    fs.writeFileSync(filepath, buffer);
+
+    const host = req.get('host') || `localhost:${PORT}`;
+    const protocol = req.secure ? 'https' : 'http';
+    const imageUrl = `${protocol}://${host}/uploads/${filename}`;
+
+    console.log(`Image saved locally to backend: ${filepath}`);
+    console.log(`Public URL: ${imageUrl}`);
+
+    return res.status(200).json({
+      success: true,
+      url: imageUrl
+    });
+  } catch (error: any) {
+    console.error('Upload error:', error);
+    return res.status(500).json({
+      message: 'Failed to upload image.',
+      error: error.message
+    });
+  }
+});
+
 // Serve Static Web Frontend Assets
 const publicDir = path.join(process.cwd(), 'public');
 app.use(express.static(publicDir));
