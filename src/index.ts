@@ -124,7 +124,7 @@ const startServer = async (): Promise<void> => {
     }
 
     app.listen(PORT, () => {
-      console.log(`\nGraven Automation Web & Smart Product Scanner live at: http://localhost:${PORT}`);
+      console.log(`\nUnwindly Spa Finder Backend API live at: http://localhost:${PORT}`);
       console.log(`Health check: http://localhost:${PORT}/health\n`);
     });
   } catch (error) {
